@@ -1,8 +1,8 @@
 # -------------------------day-4-------------------------------
 
-# import string  # random string
-# import random  # random number
-# import my_module  # your random file
+import string  # random string
+import random  # random number
+import my_module  # your random file
 
 # # generate random number: randomInt takes two arguments
 # random_int = random.randint(1, 10)  # 1 to 10
@@ -56,3 +56,19 @@
 # print(fruits)
 
 # list methods: https://docs.python.org/3/tutorial/datastructures.html
+
+# index errors and nested lists
+
+nepal_states = ["pradesh1", "Madhesh Province",
+                "Bagmati Province", "Lumbini Province", "Karnali Province", "Sudurpashchim Province"]
+no_of_states = len(nepal_states)
+print(nepal_states[no_of_states - 1])
+
+fruits = ["mango", "grapes", "apple", "banana"]
+vegetables = ["tomato", "potatoes", "spinach"]
+
+fruits.append(vegetables)
+print(fruits)
+
+# fruits_vegetables = [fruits, vegetables]  # two list combine
+# print(fruits_vegetables)
