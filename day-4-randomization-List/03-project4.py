@@ -1,4 +1,4 @@
-# -------------project-4: rock and scissors---------------
+# -------------project-4: rock, paper and scissors---------------
 """
     Rock wins against scissors; 
     paper wins against rock; 
