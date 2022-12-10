@@ -65,7 +65,7 @@
 
 # --------------challenge-4: fizz buzz------------------------
 """
-    divisibe by 3 = "Fizz"
+    divisible by 3 = "Fizz"
     divisible by 5 = "Buzz"
     divisible by both 3 and 5 = "FizzBuzz"
 """
