@@ -90,37 +90,17 @@
 # logical and operator:both condition should be true for true
 a = 59
 
-# if a >= 45 and a <= 55:
-#     print("between 45 and 55")
-# else:
-#     print("your are free to do anything")
+if 45 <= a <= 55:
+    print("between 45 and 55")
+else:
+    print("you are free to do anything")
 
 
-# # logical or operator: if atleast one condition true, then its true
-# b = 59
+# logical or operator: if at least one condition true, then its true
+b = 59
 
-# if b >= 45 or b <= 55:
-#     print("between 45 and 55")
-# else:
-#     print("your are free to do anything")
+if b >= 45 or b <= 55:
+    print("between 45 and 55")
+else:
+    print("you are to do anything")
 
-# Python String Methods
-your_name = "gyAmzo"
-print("Capitalize:", your_name.capitalize())
-print("Casefold:", your_name.casefold())  # lowercase
-print("Center:", your_name.center(12))  # move text
-print("Count:", your_name.count("a"))  # count text character
-print("endswith:", your_name.endswith("a"))  # true or false
-
-txt = "H\te\tl\tl\to"  # t:tabs
-print("expand tabs:", txt.expandtabs(10))  # increase tabs
-
-# find: Searches the string for a specified value and returns the position of where it was found
-print("find:", your_name.find("o"))
-
-# The index() method finds the first occurrence of the specified value.
-txt2 = "Hello, welcome to my world."
-x = txt2.index("e", 5, 10)  # start point, end point
-print(x)
-
-# https://www.w3schools.com/python/python_ref_string.asp

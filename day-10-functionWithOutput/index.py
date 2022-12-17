@@ -19,6 +19,8 @@ print(fullName)
 
 # ..........multiple return values.........
 def new_name(fname, lname):
+    """take a first and last name and format it
+    to return the title case version of the name."""
     if fname == "" or lname == "":
         return "You didn't provide valid inputs. "
     full_name = (fname + " " + lname).title()
@@ -27,3 +29,5 @@ def new_name(fname, lname):
 
 newfullName = new_name(input("what is ur first name? "), input("what is ur last name? "))
 print(newfullName)
+
+
