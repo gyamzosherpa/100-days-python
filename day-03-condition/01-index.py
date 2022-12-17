@@ -90,13 +90,13 @@
 # logical and operator:both condition should be true for true
 a = 59
 
-if 45 <= a <= 55:
+if a >= 45 and a <= 55:
     print("between 45 and 55")
 else:
     print("you are free to do anything")
 
 
-# logical or operator: if at least one condition true, then its true
+# logical or operator: if at least one condition true, then it's true
 b = 59
 
 if b >= 45 or b <= 55:
