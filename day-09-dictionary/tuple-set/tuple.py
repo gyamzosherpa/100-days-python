@@ -1,4 +1,4 @@
-# tuple: collection which is ordered and unchangeable used to group together related data
+# tuple-set: collection which is ordered and unchangeable used to group together related data
 
 student = ("Gyamzo", 26, "male")
 
